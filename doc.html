@@ -1,0 +1,69 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Basket</title>
+  <link rel="stylesheet" href="doc.css">
+
+</head>
+
+<body>
+  <main>
+    <div class="basket">
+      <div class="basket-labels">
+        <ul>
+          <li class="item item-heading">Item</li>
+          <li class="price">Price</li>
+          <li class="quantity">Quantity</li>
+          <li class="subtotal">Subtotal</li>
+        </ul>
+      </div>
+      <div class="basket-product">
+        <div class="item">
+          <div class="product-image">
+            <img src="https://www.sbsinformatique.com/2476-large_default/clavier-mecanique-t-dagger-bali-t-tgk311-rainbow-brown-switch-tunisie.jpg" alt="Placholder Image 2" class="product-frame">
+          </div>
+          <div class="product-details">Clavier Mécanique 
+            <h1><strong><span class="item-quantity">1</span> </strong> T-Dagger Bali T-TGK311 Rainbow Brown Switch</h1>
+            <p><strong>Référence: T-TGK311-BR</strong></p>
+            <p>Product Code - 232321939</p>
+          </div>
+        </div>
+        <div class="price">89</div>
+        <div class="quantity">
+          <input type="number" value="0" min="0" class="quantity-field" onclick="doc(event)">
+        </div>
+        <div class="subtotal" id="subtotal"></div>
+        <div class="remove">
+          <button onclick="remove(event)" >Remove</button>
+        </div>
+      </div>
+      <div class="basket-product">
+        <div class="item">
+          <div class="product-image">
+            <img src="https://tdiscount.tn/8473-large_default/micro-casque-gamer-hyperx-cloud-ii-noir.jpg" alt="Placholder Image 2" class="product-frame">
+          </div>
+          <div class="product-details">
+            <h1><strong><span class="item-quantity">0</span>HyperX Cloud II </strong> Micro casque gaming HyperX Cloud II - Noir</h1>
+            <p><strong>Référence KHX-HSCP-RD</strong></p>
+            <p>Product Code - 232321939</p>
+          </div>
+        </div>
+        <div class="price">349</div>
+        <div class="quantity">
+          <input type="number" value="0" min="0" class="quantity-field" onclick="sz(event)">
+        </div>
+        <div class="subtotal" id="subtotale"></div>
+        <div class="remove">
+          <button onclick="remove(event)" >Remove</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="doc.js"></script>
+</section>
+
+</body>
+</html>
